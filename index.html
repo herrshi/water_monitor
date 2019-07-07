@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="static/libs/fontawesome/css/all.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap addons -->
+  <!--  <link rel="stylesheet" href="css/addons-pro/cards-extended.min.css">-->
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <style>
+    /* Required for full background image */
+
+    html,
+    body,
+    header,
+    .view {
+      height: 100%;
+    }
+
+    @media (max-width: 740px) {
+      html,
+      body,
+      header,
+      .view {
+        height: 1000px;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+      html,
+      body,
+      header,
+      .view {
+        height: 600px;
+      }
+    }
+
+    .btn .fa {
+      margin-left: 3px;
+    }
+
+    .top-nav-collapse {
+      background-color: #424f95 !important;
+    }
+
+    .navbar:not(.top-nav-collapse) {
+      background: transparent !important;
+    }
+
+    @media (max-width: 991px) {
+      .navbar:not(.top-nav-collapse) {
+        background: #424f95 !important;
+      }
+    }
+
+    .btn-white {
+      color: black !important;
+    }
+
+    h6 {
+      line-height: 1.7;
+    }
+
+    .rgba-gradient {
+      background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+      background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+      background: -webkit-gradient(linear, 45deg, from(rgba(42, 27, 161, 0.7)), to(rgba(29, 210, 177, 0.7)));
+      background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+      background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+    }
+  </style>
+</head>
+
+<body class="light-blue-skin">
+<!-- Main navigation -->
+<header>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <h2><i class="fas fa-water"></i> <strong>青岛流域水环境模拟与管理平台</strong></h2>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7"
+              aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+        <ul class="navbar-nav ml-auto nav-flex-icons">
+
+          <li class="nav-item avatar dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-55"
+               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-user-circle fa-2x"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-lg-right dropdown-secondary"
+                 aria-labelledby="navbarDropdownMenuLink-55">
+              <a class="dropdown-item" href="#"><i class="fas fa-cog"></i> 用户管理</a>
+              <a class="dropdown-item" href="#"><i class="fas fa-times"></i> 退出</a>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- Full Page Intro -->
+  <div class="view"
+       style="background-image: url('static/img/architecture.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+    <!-- Mask & flexbox options-->
+    <div class="mask rgba-gradient d-flex justify-content-center align-items-center">
+      <!-- Content -->
+      <div class="container">
+        <div class="d-flex justify-content-around mb-5">
+          <!-- Card -->
+          <div class="card card-cascade wow fadeInLeft" data-wow-delay="0.3s"
+               style="width: 300px">
+
+            <!-- Card image -->
+            <div class="view view-cascade gradient-card-header blue-gradient">
+
+              <!-- Title -->
+              <h2 class="card-header-title"><i class="fas fa-bell"></i></h2>
+              <!-- Subtitle -->
+              <h5 class="mb-0 pb-3 pt-2">水环境质量分析及预警</h5>
+            </div>
+
+            <a href="#">
+              <div class="mask waves-effect waves-light rgba-white-slight"></div>
+            </a>
+          </div>
+          <!-- Card -->
+
+          <!-- Card -->
+          <div class="card card-cascade wow fadeInDown" data-wow-delay="0.3s"
+               style="width: 300px">
+
+            <!-- Card image -->
+            <div class="view view-cascade gradient-card-header blue-gradient">
+
+              <!-- Title -->
+              <h2 class="card-header-title"><i class="fas fa-exclamation-triangle"></i></h2>
+              <!-- Subtitle -->
+              <h5 class="mb-0 pb-3 pt-2">水源地环境监管</h5>
+            </div>
+
+            <a href="#">
+              <div class="mask waves-effect waves-light rgba-white-slight"></div>
+            </a>
+          </div>
+          <!-- Card -->
+
+          <!-- Card -->
+          <div class="card card-cascade wow fadeInRight" data-wow-delay="0.3s"
+               style="width: 300px">
+
+            <!-- Card image -->
+            <div class="view view-cascade gradient-card-header blue-gradient">
+
+              <!-- Title -->
+              <h2 class="card-header-title"><i class="fas fa-exclamation-triangle"></i></h2>
+              <!-- Subtitle -->
+              <h5 class="mb-0 pb-3 pt-2">污染源分析</h5>
+
+              <div class="mask flex-center rgba-blue-grey-strong">
+
+              </div>
+
+            </div>
+          </div>
+          <!-- Card -->
+        </div>
+
+        <div class="d-flex justify-content-around">
+          <!-- Card -->
+          <div class="card card-cascade wow fadeInLeft" data-wow-delay="0.3s"
+               style="width: 300px">
+
+            <!-- Card image -->
+            <div class="view view-cascade gradient-card-header blue-gradient">
+
+              <!-- Title -->
+              <h2 class="card-header-title"><i class="fas fa-bell"></i></h2>
+              <!-- Subtitle -->
+              <h5 class="mb-0 pb-3 pt-2">水环境模拟预测</h5>
+
+              <div class="mask flex-center rgba-grey-strong">
+
+              </div>
+
+            </div>
+          </div>
+          <!-- Card -->
+
+          <!-- Card -->
+          <div class="card card-cascade wow fadeInUp" data-wow-delay="0.3s"
+               style="width: 300px">
+
+            <!-- Card image -->
+            <div class="view view-cascade gradient-card-header blue-gradient">
+
+              <!-- Title -->
+              <h2 class="card-header-title"><i class="fas fa-exclamation-triangle"></i></h2>
+              <!-- Subtitle -->
+              <h5 class="mb-0 pb-3 pt-2">突发水环境事故风险预警</h5>
+
+              <div class="mask flex-center rgba-grey-strong">
+
+              </div>
+
+            </div>
+          </div>
+          <!-- Card -->
+
+          <!-- Card -->
+          <div class="card card-cascade wow fadeInRight" data-wow-delay="0.3s"
+               style="width: 300px">
+
+            <!-- Card image -->
+            <div class="view view-cascade gradient-card-header blue-gradient">
+
+              <!-- Title -->
+              <h2 class="card-header-title"><i class="fas fa-exclamation-triangle"></i></h2>
+              <!-- Subtitle -->
+              <h5 class="mb-0 pb-3 pt-2">水环境遥感监测</h5>
+
+              <div class="mask flex-center rgba-grey-strong">
+
+              </div>
+
+            </div>
+          </div>
+          <!-- Card -->
+        </div>
+      </div>
+      <!-- Content -->
+    </div>
+    <!-- Mask & flexbox options-->
+  </div>
+  <!-- Full Page Intro -->
+</header>
+<!-- Main navigation -->
+
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<script>
+  new WOW().init();
+</script>
+</body>
+
+</html>
