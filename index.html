@@ -16,69 +16,6 @@
   <!--  <link rel="stylesheet" href="css/addons-pro/cards-extended.min.css">-->
   <!-- Your custom styles (optional) -->
   <link href="css/style.css" rel="stylesheet">
-
-  <style>
-    /* Required for full background image */
-
-    html,
-    body,
-    header,
-    .view {
-      height: 100%;
-    }
-
-    @media (max-width: 740px) {
-      html,
-      body,
-      header,
-      .view {
-        height: 1000px;
-      }
-    }
-
-    @media (min-width: 800px) and (max-width: 850px) {
-      html,
-      body,
-      header,
-      .view {
-        height: 600px;
-      }
-    }
-
-    .btn .fa {
-      margin-left: 3px;
-    }
-
-    .top-nav-collapse {
-      background-color: #424f95 !important;
-    }
-
-    .navbar:not(.top-nav-collapse) {
-      background: transparent !important;
-    }
-
-    @media (max-width: 991px) {
-      .navbar:not(.top-nav-collapse) {
-        background: #424f95 !important;
-      }
-    }
-
-    .btn-white {
-      color: black !important;
-    }
-
-    h6 {
-      line-height: 1.7;
-    }
-
-    .rgba-gradient {
-      background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
-      background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
-      background: -webkit-gradient(linear, 45deg, from(rgba(42, 27, 161, 0.7)), to(rgba(29, 210, 177, 0.7)));
-      background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
-      background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
-    }
-  </style>
 </head>
 
 <body class="light-blue-skin">
@@ -88,7 +25,8 @@
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <h2><i class="fas fa-water"></i> <strong>青岛流域水环境模拟与管理平台</strong></h2>
+        <img src="static/img/logo.png" height="40" class="d-inline-block align-top" alt="logo">
+        <a><h2 class="font-weight-bold white-darker-hover">青岛流域水环境模拟与管理平台</h2></a>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7"
               aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
@@ -120,126 +58,153 @@
     <div class="mask rgba-gradient d-flex justify-content-center align-items-center">
       <!-- Content -->
       <div class="container">
+        <!-- 第一行三个图标 -->
         <div class="d-flex justify-content-around mb-5">
-          <!-- Card -->
-          <div class="card card-cascade wow fadeInLeft" data-wow-delay="0.3s"
-               style="width: 300px">
+          <!-- Card: 水环境质量分析及预警 -->
+          <div class="card testimonial-card rgba-cyan-slight wow fadeInLeft"
+               data-wow-delay="0.3s" style="width: 300px">
 
-            <!-- Card image -->
-            <div class="view view-cascade gradient-card-header blue-gradient">
+            <!-- Background color -->
+            <div class="card-up rgba-cyan-light"></div>
 
-              <!-- Title -->
-              <h2 class="card-header-title"><i class="fas fa-bell"></i></h2>
-              <!-- Subtitle -->
-              <h5 class="mb-0 pb-3 pt-2">水环境质量分析及预警</h5>
+            <!-- Avatar -->
+            <div class="avatar mx-auto white">
+              <img src="static/img/logo_water_quality_analyse.png" class="rounded-circle" alt="水环境分析">
             </div>
 
+            <!-- Content -->
+            <div class="card-body">
+              <!-- Name -->
+              <h4 class="card-title text-light">水环境质量分析及预警</h4>
+            </div>
+
+            <!-- Mask -->
             <a href="#">
               <div class="mask waves-effect waves-light rgba-white-slight"></div>
             </a>
           </div>
-          <!-- Card -->
+          <!-- /Card: 水环境质量分析及预警 -->
 
-          <!-- Card -->
-          <div class="card card-cascade wow fadeInDown" data-wow-delay="0.3s"
-               style="width: 300px">
+          <!-- Card: 水源地环境监管-->
+          <div class="card testimonial-card rgba-cyan-slight wow fadeInDown"
+               data-wow-delay="0.3s" style="width: 300px">
 
-            <!-- Card image -->
-            <div class="view view-cascade gradient-card-header blue-gradient">
+            <!-- Background color -->
+            <div class="card-up rgba-cyan-light"></div>
 
-              <!-- Title -->
-              <h2 class="card-header-title"><i class="fas fa-exclamation-triangle"></i></h2>
-              <!-- Subtitle -->
-              <h5 class="mb-0 pb-3 pt-2">水源地环境监管</h5>
+            <!-- Avatar -->
+            <div class="avatar mx-auto white">
+              <img src="static/img/logo_water_source_supervise.png" class="rounded-circle" alt="水源地监管">
             </div>
 
+            <!-- Content -->
+            <div class="card-body">
+              <!-- Name -->
+              <h4 class="card-title text-light">水源地环境监管</h4>
+            </div>
+
+            <!-- Mask -->
             <a href="#">
               <div class="mask waves-effect waves-light rgba-white-slight"></div>
             </a>
           </div>
-          <!-- Card -->
+          <!-- /Card: 水源地环境监管 -->
 
-          <!-- Card -->
-          <div class="card card-cascade wow fadeInRight" data-wow-delay="0.3s"
-               style="width: 300px">
+          <!-- Card: 污染源分析 -->
+          <div class="card testimonial-card rgba-cyan-slight wow fadeInRight"
+               data-wow-delay="0.3s" style="width: 300px">
 
-            <!-- Card image -->
-            <div class="view view-cascade gradient-card-header blue-gradient">
+            <!-- Background color -->
+            <div class="card-up rgba-cyan-light"></div>
 
-              <!-- Title -->
-              <h2 class="card-header-title"><i class="fas fa-exclamation-triangle"></i></h2>
-              <!-- Subtitle -->
-              <h5 class="mb-0 pb-3 pt-2">污染源分析</h5>
-
-              <div class="mask flex-center rgba-blue-grey-strong">
-
-              </div>
-
+            <!-- Avatar -->
+            <div class="avatar mx-auto white">
+              <img src="static/img/logo_pollute_source_analyse.png" class="rounded-circle" alt="污染源分析">
             </div>
+
+            <!-- Content -->
+            <div class="card-body">
+              <!-- Name -->
+              <h4 class="card-title text-light">污染源分析</h4>
+            </div>
+
+            <!-- Mask -->
+            <div class="mask flex-center rgba-grey-strong"></div>
           </div>
-          <!-- Card -->
+          <!-- /Card: 污染源分析 -->
         </div>
 
-        <div class="d-flex justify-content-around">
-          <!-- Card -->
-          <div class="card card-cascade wow fadeInLeft" data-wow-delay="0.3s"
-               style="width: 300px">
+        <!-- 第二行三个图标 -->
+        <div class="d-flex justify-content-around material-tooltip-main">
+          <!-- Card: 水环境模拟预测 -->
+          <div class="card testimonial-card rgba-cyan-slight wow fadeInLeft"
+               data-wow-delay="0.3s" style="width: 300px">
 
-            <!-- Card image -->
-            <div class="view view-cascade gradient-card-header blue-gradient">
+            <!-- Background color -->
+            <div class="card-up rgba-cyan-light"></div>
 
-              <!-- Title -->
-              <h2 class="card-header-title"><i class="fas fa-bell"></i></h2>
-              <!-- Subtitle -->
-              <h5 class="mb-0 pb-3 pt-2">水环境模拟预测</h5>
-
-              <div class="mask flex-center rgba-grey-strong">
-
-              </div>
-
+            <!-- Avatar -->
+            <div class="avatar mx-auto white">
+              <img src="static/img/logo_water_env_forecast.png" class="rounded-circle" alt="水环境模拟预测">
             </div>
-          </div>
-          <!-- Card -->
 
-          <!-- Card -->
-          <div class="card card-cascade wow fadeInUp" data-wow-delay="0.3s"
-               style="width: 300px">
-
-            <!-- Card image -->
-            <div class="view view-cascade gradient-card-header blue-gradient">
-
-              <!-- Title -->
-              <h2 class="card-header-title"><i class="fas fa-exclamation-triangle"></i></h2>
-              <!-- Subtitle -->
-              <h5 class="mb-0 pb-3 pt-2">突发水环境事故风险预警</h5>
-
-              <div class="mask flex-center rgba-grey-strong">
-
-              </div>
-
+            <!-- Content -->
+            <div class="card-body">
+              <!-- Name -->
+              <h4 class="card-title text-light">水环境模拟预测</h4>
             </div>
+
+            <!-- Mask -->
+            <div class="mask flex-center rgba-grey-strong"></div>
           </div>
-          <!-- Card -->
+          <!-- /Card: 水环境模拟预测 -->
 
-          <!-- Card -->
-          <div class="card card-cascade wow fadeInRight" data-wow-delay="0.3s"
-               style="width: 300px">
+          <!-- Card: 突发水环境事故风险预警-->
+          <div class="card testimonial-card rgba-cyan-slight wow fadeInUp"
+               data-wow-delay="0.3s" style="width: 300px">
 
-            <!-- Card image -->
-            <div class="view view-cascade gradient-card-header blue-gradient">
+            <!-- Background color -->
+            <div class="card-up rgba-cyan-light"></div>
 
-              <!-- Title -->
-              <h2 class="card-header-title"><i class="fas fa-exclamation-triangle"></i></h2>
-              <!-- Subtitle -->
-              <h5 class="mb-0 pb-3 pt-2">水环境遥感监测</h5>
-
-              <div class="mask flex-center rgba-grey-strong">
-
-              </div>
-
+            <!-- Avatar -->
+            <div class="avatar mx-auto white">
+              <img src="static/img/logo_water_env_accident.png" class="rounded-circle" alt="突发水环境事故风险预警">
             </div>
+
+            <!-- Content -->
+            <div class="card-body">
+              <!-- Name -->
+              <h4 class="card-title text-light">突发水环境事故风险预警</h4>
+            </div>
+
+            <!-- Mask -->
+            <div class="mask flex-center rgba-grey-strong"></div>
           </div>
-          <!-- Card -->
+          <!-- /Card: 突发水环境事故风险预警 -->
+
+          <!-- Card: 水环境遥感监测-->
+          <div class="card testimonial-card rgba-cyan-slight wow fadeInRight"
+               data-wow-delay="0.3s" style="width: 300px">
+
+            <!-- Background color -->
+            <div class="card-up rgba-cyan-light"></div>
+
+            <!-- Avatar -->
+            <div class="avatar mx-auto white">
+              <img src="static/img/logo_water_env_sense.png" class="rounded-circle" alt="水环境遥感监测">
+            </div>
+
+            <!-- Content -->
+            <div class="card-body">
+              <!-- Name -->
+              <h4 class="card-title text-light">水环境遥感监测</h4>
+            </div>
+
+            <!-- Mask -->
+            <div class="mask flex-center rgba-grey-strong"></div>
+          </div>
+          <!-- /Card: 水环境遥感监测 -->
+
         </div>
       </div>
       <!-- Content -->
